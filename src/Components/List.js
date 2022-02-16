@@ -31,22 +31,22 @@ const List = ({ list, onRemoveItem }) => {
             <StyledItem>
                 <StyledColumn width='40%' >
                     <button type="button" onClick={() => handleSort('TITLE')}>
-                        Title
+                    <strong>Title</strong>
                     </button>
                 </StyledColumn>
                 <StyledColumn width='20%' >
                     <button type="button" onClick={() => handleSort('AUTHOR')}>
-                        Author
+                        <strong>Author</strong>
                     </button>
                 </StyledColumn>
                 <StyledColumn width='20%' >
                     <button type="button" onClick={() => handleSort('COMMENT')}>
-                        Comments
-                    </button>
+                        <strong>Comments</strong>
+                    </button>  
                 </StyledColumn>
                 <StyledColumn width='10%' >
                     <button type="button" onClick={() => handleSort('POINT')}>
-                        Points
+                        <strong>Points</strong>
                     </button>
                 </StyledColumn>
                 <StyledColumn width='10%' ><strong>Action</strong></StyledColumn>

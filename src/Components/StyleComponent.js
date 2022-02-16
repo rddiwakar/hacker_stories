@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 const StyledComponent = styled.div`
-height: 100vw;
+min-height: 100vw;
 padding: 20px;
+height:100%;
 background: #83a4d4; /* fallback for old browsers */
 background: linear-gradient(to left, #b6fbff, #83a4d4);
 color: #171212;
